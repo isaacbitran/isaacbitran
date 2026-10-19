@@ -10,6 +10,7 @@ Brown '29, Applied Math–CS + Econ. I build software for groups I'm already par
 ### Selected work
 | Project | What it is |
 |---|---|
+| [**llm-survivor**](https://github.com/isaacbitran/llm-survivor) | 7 Claude agents live together and vote one out every week; the loser is deleted. They formed secret alliances, read each other's journals and lied on the ballot. Full logs and a study. |
 | [**edel-ai**](https://github.com/isaacbitran/edel-ai) | AI analyst for a college football staff. Headless Claude Code over a 975K-play FCS database; every number comes from SQL, never the model. |
 | [**atlas-recruit**](https://github.com/isaacbitran/atlas-recruit) | Recruiting analytics used daily by 25+ Brown Football coaches and staff on 13,000+ players. Live at [brownfootballmaps.org](https://brownfootballmaps.org). |
 | [**agent-memory**](https://github.com/isaacbitran/agent-memory) | A memory format for AI agents that stays correct for months: Now/Log files, supersession instead of deletion, a lint gate on every write. |
