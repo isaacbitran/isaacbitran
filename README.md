@@ -3,7 +3,7 @@
 Brown '29, Applied Math–CS + Econ. I build software for groups I'm already part of, and the memory systems that keep AI agents correct inside them.
 
 ### Now
-- Founding engineer at a stealth AI startup: a company brain for lenders.
+- AI engineer (part-time) at an early-stage AI startup building a company brain for lenders.
 - Building Edel AI, the AI analyst Brown Football's staff uses every day.
 - Member Meetings Lead, [Brown AI Safety Team](https://www.baist.ai) (100+ members).
 
