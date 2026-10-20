@@ -14,6 +14,15 @@ user ─▶ ┌──────────────────── harn
         └──────────────────────────────────────────────────┘
 ```
 
+### Tools you can install
+
+| Tool | What it does | Install |
+|---|---|---|
+| [**numguard**](https://github.com/isaacbitran/numguard) | Your agent can't state a number it didn't compute. Catches 91.6% of fabricated numbers, 0 false flags. | `npx skills add isaacbitran/numguard` |
+| [**claude-serve**](https://github.com/isaacbitran/claude-serve) | Headless Claude Code as an HTTP + SSE API: sessions, streaming, a process cap. 1.1 s warm replies. | `npx -y github:isaacbitran/claude-serve` |
+| [**angry-users**](https://github.com/isaacbitran/angry-users) | Persona agents red-team your agent and write a failure report. | `uvx --from git+https://github.com/isaacbitran/angry-users angry-users run --target …` |
+| [**agent-memory**](https://github.com/isaacbitran/agent-memory) | Memory that stays correct for months: Now/Log files and a lint gate on every write. | `npx skills add isaacbitran/agent-memory` |
+
 ### Harnesses I've built
 
 **[Edel AI](https://github.com/isaacbitran/edel-ai): an AI analyst a college football staff uses every week**
