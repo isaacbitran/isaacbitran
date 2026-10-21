@@ -14,6 +14,14 @@ user ─▶ ┌──────────────────── harn
         └──────────────────────────────────────────────────┘
 ```
 
+### Research demos
+
+| Demo | Finding |
+|---|---|
+| [**Darwin's World**](https://darwins-world.vercel.app) · [code](https://github.com/isaacbitran/darwins-world) | Evolution where an AI judgment model's common sense is the physics. On a frozen island, insulating coats spread from 21% to 86–95% of the population in 5 of 5 runs. |
+| [**jevSociety**](https://jev-society.vercel.app) · [code](https://github.com/isaacbitran/jev-society) | 10,000 AI agents on a simulated social network. A feed ranked by predicted likes hides disagreement and causes 11–36x fewer unfollows than a random feed. |
+| [**English Net**](https://english-net-chi.vercel.app) · [code](https://github.com/isaacbitran/english-net) | A prompt-injection detector whose neurons are English yes/no questions. One added sentence raised the catch rate on a missed attack family from 40.8% to 70.4%, with no retraining. |
+
 ### Tools you can install
 
 | Tool | What it does | Install |
@@ -21,7 +29,7 @@ user ─▶ ┌──────────────────── harn
 | [**numguard**](https://github.com/isaacbitran/numguard) | Your agent can't state a number it didn't compute. Catches 91.6% of fabricated numbers, 0 false flags. | `npx skills add isaacbitran/numguard` |
 | [**claude-serve**](https://github.com/isaacbitran/claude-serve) | Headless Claude Code as an HTTP + SSE API: sessions, streaming, a process cap. 1.1 s warm replies. | `npx -y github:isaacbitran/claude-serve` |
 | [**angry-users**](https://github.com/isaacbitran/angry-users) | Persona agents red-team your agent and write a failure report. | `uvx --from git+https://github.com/isaacbitran/angry-users angry-users run --target …` |
-| [**agent-memory**](https://github.com/isaacbitran/agent-memory) | Memory that stays correct for months: Now/Log files and a lint gate on every write. | `npx skills add isaacbitran/agent-memory` |
+| [**agent-memory**](https://github.com/isaacbitran/agent-memory) | Memory that stays correct for years: Now/Log files and a lint gate on every write. | `npx skills add isaacbitran/agent-memory` |
 
 ### Harnesses I've built
 
@@ -36,7 +44,7 @@ user ─▶ ┌──────────────────── harn
 - Letters, a public board, private journals, secret journal reads, secret ballots.
 - They formed secret alliances, read each other's journals, and one voted out his own ally after promising not to. All 16 days of logs are in the repo.
 
-**[agent-memory](https://github.com/isaacbitran/agent-memory): memory that stays correct for months**
+**[agent-memory](https://github.com/isaacbitran/agent-memory): memory that stays correct for years**
 - Now/Log files, supersession instead of deletion, a lint gate on every write, ambiguous facts held for a human. It runs my own knowledge base and Edel AI.
 
 **[Atlas Recruit](https://github.com/isaacbitran/atlas-recruit): recruiting analytics + a chatbot used daily by Brown Football's staff**
