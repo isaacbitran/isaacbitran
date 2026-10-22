@@ -1,8 +1,10 @@
-# Isaac Bitran
+<a href="https://isaacbitran.com"><img src="assets/banner.webp" alt="Isaac Bitran" width="100%"></a>
 
 **I build agent harnesses**: the code around a model that decides what it can see, what it can touch, what it remembers, and how you know it's right.
 
 Brown '29, Applied Math–CS. Most of my time goes into making Claude agents do real work for real people, then building whatever stops them from being wrong.
+
+<!--NOW-->**Latest ship · Oct 21, 2026:** [jev-society](https://jev-society.vercel.app): Agent-based simulation of 10,000 social-media accounts whose only judge of which beliefs fit together is a judgment model (Jev).<!--/NOW-->
 
 ```
 user ─▶ ┌──────────────────── harness ─────────────────────┐ ─▶ answer
@@ -16,11 +18,11 @@ user ─▶ ┌──────────────────── harn
 
 ### Research demos
 
-| Demo | Finding |
+| | Demo and finding |
 |---|---|
-| [**Darwin's World**](https://darwins-world.vercel.app) · [code](https://github.com/isaacbitran/darwins-world) | Evolution where an AI judgment model's common sense is the physics. On a frozen island, insulating coats spread from 21% to 86–95% of the population in 5 of 5 runs. |
-| [**jevSociety**](https://jev-society.vercel.app) · [code](https://github.com/isaacbitran/jev-society) | 10,000 AI agents on a simulated social network. A feed ranked by predicted likes hides disagreement and causes 11–36x fewer unfollows than a random feed. |
-| [**English Net**](https://english-net-chi.vercel.app) · [code](https://github.com/isaacbitran/english-net) | A prompt-injection detector whose neurons are English yes/no questions. One added sentence raised the catch rate on a missed attack family from 40.8% to 70.4%, with no retraining. |
+| <a href="https://darwins-world.vercel.app"><img src="assets/clip-darwins-world.webp" width="260" alt="Darwin's World demo"></a> | [**Darwin's World**](https://darwins-world.vercel.app) · [code](https://github.com/isaacbitran/darwins-world)<br>Evolution where an AI judgment model's common sense is the physics. On a frozen island, insulating coats spread from 21% to 86–95% of the population in 5 of 5 runs. |
+| <a href="https://jev-society.vercel.app"><img src="assets/clip-jev-society.webp" width="260" alt="jevSociety demo"></a> | [**jevSociety**](https://jev-society.vercel.app) · [code](https://github.com/isaacbitran/jev-society)<br>10,000 AI agents on a simulated social network. A feed ranked by predicted likes hides disagreement and causes 11–36x fewer unfollows than a random feed. |
+| <a href="https://english-net-chi.vercel.app"><img src="assets/clip-english-net.webp" width="260" alt="English Net demo"></a> | [**English Net**](https://english-net-chi.vercel.app) · [code](https://github.com/isaacbitran/english-net)<br>A prompt-injection detector whose neurons are English yes/no questions. One added sentence raised the catch rate on a missed attack family from 40.8% to 70.4%, with no retraining. |
 
 ### Tools you can install
 
