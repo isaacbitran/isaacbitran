@@ -15,7 +15,7 @@ first = re.split(r"(?<=[.!?])\s", r["description"].strip())[0].rstrip(".")
 line = f"**Latest ship · {day}:** [{r['name']}]({link}): {first}."
 
 readme = open("README.md").read()
-new = re.sub(r"<!--NOW-->.*?<!--/NOW-->", f"<!--NOW-->{line}<!--/NOW-->", readme, flags=re.S)
+new = re.sub(r"<!--NOW-->.*?<!--/NOW-->", f"<!--NOW-->\n{line}\n<!--/NOW-->", readme, flags=re.S)
 if new != readme:
     open("README.md", "w").write(new)
     print("updated:", line)
