@@ -79,7 +79,7 @@ user ─▶ ┌──────────────────── harn
 - Now/Log files, supersession instead of deletion, a lint gate on every write, ambiguous facts held for a human. It runs my own knowledge base and Edel AI.
 
 **[Atlas Recruit](https://github.com/isaacbitran/atlas-recruit): recruiting analytics + a chatbot used daily by Brown Football's staff**
-- 13,000+ players, offer boards synced daily, a Claude chatbot over all of it. 25+ coaches and staff use it.
+- 25+ coaches and staff use it: 13,000+ FCS players, offer boards synced daily, a harness chat bot that runs SQL queries on top.
 
 ### How I build them
 - **The model never makes up a number.** Numbers come from code; the model explains them.
@@ -88,7 +88,6 @@ user ─▶ ┌──────────────────── harn
 - **Attack it before users do.** Simulated users and red-team agents before every release.
 
 ### Also
-- AI engineer (part-time) at an early-stage AI startup.
 - Member Meetings Lead, [Brown AI Safety Team](https://www.baist.ai) (100+ members).
 - Smaller things: [brown-geoguessr](https://github.com/isaacbitran/brown-geoguessr) (500+ players in week one), [semantic-universe](https://github.com/isaacbitran/semantic-universe) (fly through 20k word embeddings), [hf-incident-talk](https://github.com/isaacbitran/hf-incident-talk).
 
