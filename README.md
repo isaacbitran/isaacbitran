@@ -1,8 +1,21 @@
 <a href="https://isaacbitran.com"><img src="assets/banner.webp" alt="Isaac Bitran" width="100%"></a>
 
-**I build agent harnesses**: the code around a model that decides what it can see, what it can touch, what it remembers, and how you know it's right.
+**I build agent harnesses and "second brains" **: the code around a model that decides what it can see, what it can touch, what it remembers, and how you know it's right.
 
 Brown '29, Applied Math–CS. Most of my time goes into making Claude agents do real work for real people, then building whatever stops them from being wrong.
+
+Interests:
+  - Jev and judgment models
+  - Agent Harnesses and "second brains"
+  - Emergent dynamics in multi-agent simulation
+  - Bias measurement in AI models
+  - Interpretable classifiers
+  - Agent harnesses
+  - Agent memory
+  - Red-teaming and prompt injection
+  - Recommender system dynamics
+  - GPU particle systems (WebGL2)
+  - Sports analytics
 
 <!--NOW-->
 **Latest ship · Oct 21, 2026:** [jev-society](https://jev-society.vercel.app): Agent-based simulation of 10,000 social-media accounts whose only judge of which beliefs fit together is a judgment model (Jev).
