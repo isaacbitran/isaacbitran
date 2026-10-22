@@ -18,24 +18,24 @@ user ─▶ ┌──────────────────── harn
         └──────────────────────────────────────────────────┘
 ```
 
-### Research demos
+### Research demos (with JEV!)
 
 <table>
 <tr>
 <td width="33%" valign="top">
 <a href="https://darwins-world.vercel.app"><img src="assets/clip-darwins-world.webp" width="100%" alt="Darwin's World demo"></a>
 <p><a href="https://darwins-world.vercel.app"><b>Darwin's World</b></a> · <a href="https://github.com/isaacbitran/darwins-world">code</a> · <a href="https://github.com/isaacbitran/darwins-world/releases/download/v1.0/darwins-world-note.pdf">note</a></p>
-<p>Evolution where an AI judgment model's common sense is the physics. On a frozen island, insulating coats spread from 21% to 86–95% of the population in 5 of 5 runs.</p>
+<p>Emergent capability evolution model where Jev's common sense is the physics. On a frozen island, insulating coats spread from 21% to 86–95% of the population in 5 of 5 runs.</p>
 </td>
 <td width="33%" valign="top">
 <a href="https://jev-society.vercel.app"><img src="assets/clip-jev-society.webp" width="100%" alt="jevSociety demo"></a>
 <p><a href="https://jev-society.vercel.app"><b>jevSociety</b></a> · <a href="https://github.com/isaacbitran/jev-society">code</a> · <a href="https://github.com/isaacbitran/jev-society/releases/download/v1.0/jev-society-note.pdf">note</a></p>
-<p>10,000 AI agents on a simulated social network. A feed ranked by predicted likes hides disagreement and causes 11–36x fewer unfollows than a random feed.</p>
+<p>10,000 Jev agents on a simulated social network. A feed ranked by predicted likes hides disagreement and causes 11–36x fewer unfollows than a random feed.</p>
 </td>
 <td width="33%" valign="top">
 <a href="https://english-net-chi.vercel.app"><img src="assets/clip-english-net.webp" width="100%" alt="English Net demo"></a>
 <p><a href="https://english-net-chi.vercel.app"><b>English Net</b></a> · <a href="https://github.com/isaacbitran/english-net">code</a> · <a href="https://github.com/isaacbitran/english-net/releases/download/v1.0/english-net-note.pdf">note</a></p>
-<p>A prompt-injection detector whose neurons are English yes/no questions. One added sentence raised the catch rate on a missed attack family from 40.8% to 70.4%, with no retraining.</p>
+<p>A prompt-injection detector whose neurons are English yes/no questions powered by Jev. One added sentence raised the catch rate on a missed attack family from 40.8% to 70.4%, with no retraining.</p>
 </td>
 </tr>
 </table>
