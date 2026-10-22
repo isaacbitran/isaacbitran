@@ -30,7 +30,7 @@ user ─▶ ┌──────────────────── harn
 <td width="33%" valign="top">
 <a href="https://jev-society.vercel.app"><img src="assets/clip-jev-society.webp" width="100%" alt="jevSociety demo"></a>
 <p><a href="https://jev-society.vercel.app"><b>jevSociety</b></a> · <a href="https://github.com/isaacbitran/jev-society">code</a> · <a href="https://github.com/isaacbitran/jev-society/releases/download/v1.0/jev-society-note.pdf">note</a></p>
-<p>10,000 Jev agents on a simulated social network. A feed ranked by predicted likes hides disagreement and causes 11–36x fewer unfollows than a random feed.</p>
+<p>10,000 Jev agents on a simulated social network. A feed ranked by predicted likes illustrates how social media causes societal wide political polarization.</p>
 </td>
 <td width="33%" valign="top">
 <a href="https://english-net-chi.vercel.app"><img src="assets/clip-english-net.webp" width="100%" alt="English Net demo"></a>
