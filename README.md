@@ -18,7 +18,7 @@ Interests:
   - Sports analytics
 
 <!--NOW-->
-**Latest ship · Oct 21, 2026:** [jev-society](https://jev-society.vercel.app): Agent-based simulation of 10,000 social-media accounts whose only judge of which beliefs fit together is a judgment model (Jev).
+**Latest ship · Oct 26, 2026:** [Unfolded](https://unfolded-gpt2.vercel.app): GPT-2 running in your browser, filmed one operation at a time. A 3D walk through every matrix of a transformer, with the real activations of your own sentence ([code](https://github.com/isaacbitran/unfolded)).
 <!--/NOW-->
 
 ```
