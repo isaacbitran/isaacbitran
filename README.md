@@ -18,7 +18,7 @@ Interests:
   - Sports analytics
 
 <!--NOW-->
-**Latest ship · Oct 26, 2026:** [Unfolded](https://unfolded-gpt2.vercel.app): GPT-2 running in your browser, filmed one operation at a time. A 3D walk through every matrix of a transformer, with the real activations of your own sentence ([code](https://github.com/isaacbitran/unfolded)).
+**Latest ship · Oct 26, 2026:** [unfolded](https://unfolded-gpt2.vercel.app): GPT-2 running in your browser, filmed one operation at a time: an interactive 3D explainer of transformers with every real activation.
 <!--/NOW-->
 
 ```
