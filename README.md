@@ -18,7 +18,7 @@ Interests:
   - Sports analytics
 
 <!--NOW-->
-**Latest ship · Oct 26, 2026:** [unfolded](https://unfolded-gpt2.vercel.app): GPT-2 running in your browser, filmed one operation at a time: an interactive 3D explainer of transformers with every real activation.
+**Latest ship · Oct 28, 2026:** [jev-bias-audit](https://github.com/isaacbitran/jev-bias-audit): Counterfactual bias audit of TypeSafe's Jev judgment model: 134,772 answers to paired prompts that differ only in one identity sentence.
 <!--/NOW-->
 
 ```
