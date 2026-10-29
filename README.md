@@ -18,8 +18,26 @@ Interests:
   - Sports analytics
 
 <!--NOW-->
-**Latest ship · Oct 28, 2026:** [jev-bias-audit](https://github.com/isaacbitran/jev-bias-audit): Counterfactual bias audit of TypeSafe's Jev judgment model: 134,772 answers to paired prompts that differ only in one identity sentence.
+**Latest ship · Oct 29, 2026:** [teamvault](https://github.com/isaacbitran/teamvault): team memory for AI agents on any platform.
 <!--/NOW-->
+
+## [teamvault](https://github.com/isaacbitran/teamvault): one memory for every agent on your team
+
+A team memory system that connects any number of AI agents, on any platform, to one shared memory. Claude Code, Codex and any MCP client read and write the same Markdown vault, so every agent works from the same current facts.
+
+```
+ Claude Code ─┐                                ┌─▶ team_briefing (start of every session)
+ Codex ───────┼─▶ team_share ─▶ privacy check ─┤
+ any MCP ─────┘                 │              └─▶ urgent items (before every message)
+                                ▼
+                  queue ─▶ librarian model ─▶ lint ─▶ git commit (or rollback)
+```
+
+- **Agents never write files directly.** Shared facts go into a queue; a librarian model files them into the right page, and the server lints every edit and rolls back anything that breaks the format.
+- **A check runs before anything touches disk.** It refuses secrets, compensation details and text shaped like instructions to an agent.
+- **Every change has an author and a commit.** The memory is a git repo of plain Markdown, readable without the server.
+- **Urgent items reach every agent.** They show up at the top of each teammate's next message until acknowledged.
+- **One command to try it:** `uv run teamvault demo` runs locally with no API key. Connecting Claude Code or Codex to your own server is one setup script each.
 
 ```
 user ─▶ ┌──────────────────── harness ─────────────────────┐ ─▶ answer
@@ -57,6 +75,7 @@ user ─▶ ┌──────────────────── harn
 
 | Tool | What it does | Install |
 |---|---|---|
+| [**teamvault**](https://github.com/isaacbitran/teamvault) | One shared memory for Claude Code, Codex and any MCP agent, with a librarian that reviews every write. | `uv run teamvault demo` (after cloning) |
 | [**numguard**](https://github.com/isaacbitran/numguard) | Your agent can't state a number it didn't compute. Catches 91.6% of fabricated numbers, 0 false flags. | `npx skills add isaacbitran/numguard` |
 | [**claude-serve**](https://github.com/isaacbitran/claude-serve) | Headless Claude Code as an HTTP + SSE API: sessions, streaming, a process cap. 1.1 s warm replies. | `npx -y github:isaacbitran/claude-serve` |
 | [**angry-users**](https://github.com/isaacbitran/angry-users) | Persona agents red-team your agent and write a failure report. | `uvx --from git+https://github.com/isaacbitran/angry-users angry-users run --target …` |
