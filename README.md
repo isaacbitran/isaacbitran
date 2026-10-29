@@ -21,24 +21,6 @@ Interests:
 **Latest ship · Oct 29, 2026:** [teamvault](https://github.com/isaacbitran/teamvault): team memory for AI agents on any platform.
 <!--/NOW-->
 
-## [teamvault](https://github.com/isaacbitran/teamvault): one memory for every agent on your team
-
-A team memory system that connects any number of AI agents, on any platform, to one shared memory. Claude Code, Codex and any MCP client read and write the same Markdown vault, so every agent works from the same current facts.
-
-```
- Claude Code ─┐                                ┌─▶ team_briefing (start of every session)
- Codex ───────┼─▶ team_share ─▶ privacy check ─┤
- any MCP ─────┘                 │              └─▶ urgent items (before every message)
-                                ▼
-                  queue ─▶ librarian model ─▶ lint ─▶ git commit (or rollback)
-```
-
-- **Agents never write files directly.** Shared facts go into a queue; a librarian model files them into the right page, and the server lints every edit and rolls back anything that breaks the format.
-- **A check runs before anything touches disk.** It refuses secrets, compensation details and text shaped like instructions to an agent.
-- **Every change has an author and a commit.** The memory is a git repo of plain Markdown, readable without the server.
-- **Urgent items reach every agent.** They show up at the top of each teammate's next message until acknowledged.
-- **One command to try it:** `uv run teamvault demo` runs locally with no API key. Connecting Claude Code or Codex to your own server is one setup script each.
-
 ```
 user ─▶ ┌──────────────────── harness ─────────────────────┐ ─▶ answer
         │  context ─▶ model ─▶ tools (read-only, logged)   │
@@ -48,6 +30,17 @@ user ─▶ ┌──────────────────── harn
         │  checks: number guard · scope · red team         │
         └──────────────────────────────────────────────────┘
 ```
+
+## [teamvault](https://github.com/isaacbitran/teamvault): one memory for every agent on your team
+
+Connect any number of AI agents, on any platform (Claude Code, Codex, any MCP client), to one shared Markdown memory.
+
+<a href="https://github.com/isaacbitran/teamvault"><img src="assets/teamvault-demo.gif" width="100%" alt="One agent shares a fact, another agent sees it, the privacy check refuses a password"></a>
+
+- **Agents never write files directly.** A librarian model files each shared fact, and every change is a git commit.
+- **A check runs before anything is saved.** It refuses secrets and instruction-shaped text.
+- **Try it in one command:** `uv run teamvault demo` (no API key).
+
 
 ### Research demos (with JEV!)
 
