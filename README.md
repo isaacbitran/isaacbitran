@@ -18,7 +18,7 @@ Interests:
   - Sports analytics
 
 <!--NOW-->
-**Latest ship · Oct 29, 2026:** [teamvault](https://github.com/isaacbitran/teamvault): team memory for AI agents on any platform.
+**Latest ship · Oct 29, 2026:** [teamvault](https://github.com/isaacbitran/teamvault): Team memory for AI agents on any platform: Claude Code, Codex and any MCP client share one Markdown vault, with a librarian that reviews every write.
 <!--/NOW-->
 
 ```
